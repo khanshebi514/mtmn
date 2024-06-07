@@ -1,17 +1,16 @@
 import Container from "@/Ui/container";
 import Navbar from "./navbar";
-import bg_image from "@/images/main-header/BG Hero.png" 
+import bg_image from "@/images/main-header/bg-image-header.jpg" 
 import SocIcons from "@/Ui/socIcons";
 import MainArea from "./main-area";
 import TextArea from "@/components/text-area";
 import ScrollArea from "./scrollArea";
+import MenuState from "./menu-state";
 
 export default function MianHeader() {
-    // let bg_css = 
   return (
-   <div className="w-full h-[1200px]">
+   <div className="w-full h-[110vh] flex flex-col flex-wrap">
     <Container>
-        <Navbar/>
         <MainArea>
             <SocIcons/>
             <TextArea/>
